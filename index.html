@@ -5,11 +5,47 @@
     <title>Заголовок</title>
 </head>
 <body>
+<style>
+	body {
+		background-color:rgb(41, 41, 41);
+		color:rgb(211, 211, 211);
+		width: 35%;
+		margin: auto;
+		font-size: 22px;
+		/* text-align: center; */
+	}
+
+	a {
+		color:rgb(102, 102, 102);
+	}
+
+	a:visited {
+		color:rgb(34, 63, 88);
+	}
+
+	a:hover {
+		color:rgb(98, 0, 255);
+	}
+	
+	div {
+		background-color:rgb(15, 15, 15);
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		padding-right: 27px;
+		border-radius: 15px;
+	}
+
+	input{
+		margin: 10px;
+	}
+</style>
+<div>
 <h1>Гиперссылки</h1>
 <ul>
     <li><a href="http://kubsu.ru">Главная страница КубГу</a></li>
     <li><a href="https://kubsu.ru">Главная страница сайта КубГу протоколе https (абсолютная ссылка)</a></li>
-    <li><a href="#"><img src="image.jpg" alt="Ссылка-изображение"></a></li>
+    <li><a href="#"><img src="image.jpg" width="245px" height="200px" 20px alt="Ссылка-изображение"></a></li>
     <li><a href="/internal-page">Сокращенная ссылка на внутреннюю страницу</a></li>
     <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
     <li><a href="#fragment">Ссылка на фрагмент текущей страницы</a></li>
@@ -26,7 +62,7 @@
             <area shape="rect" coords="0,0,100,100" href="url1" alt="rect">
             <area shape="circle" coords="150,150,50" href="url2" alt="circle">
         </map>
-        <img src="image.jpg" usemap="#image-map" alt="Image with link areas">
+        <img src="image.jpg" usemap="#image-map" width="245px" height="200px" alt="Image with link areas">
     </li>
     <li><a href="">Ссылка с пустым href</a></li>
     <li><a>Ссылка без href</a></li>
@@ -85,7 +121,7 @@
 
             <input type="submit" value="Сохранить">
         </form>
-
+</div>
 </body>
 
 </html>
